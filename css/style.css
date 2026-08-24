@@ -99,6 +99,22 @@ a {
   justify-content: space-between;
 }
 
+.nav-logo {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  display: block;
+}
+
+.nav-logo-bar 
+{
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  display: block;
+
+}
+
 .brand {
   font-size: 1.05rem;
   font-weight: 800;
@@ -775,6 +791,13 @@ h2 em {
   .nav-links.open {
     display: flex;
   }
+
+  .nav-logo {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    display: block;
+}
 
   .nav-links a {
     padding: 14px;
