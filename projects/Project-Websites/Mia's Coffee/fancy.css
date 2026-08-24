@@ -1,0 +1,475 @@
+/*home and headed css*/
+html{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffcce1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html a{
+    max-width: 16em;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display:flex;
+    width: 100%;
+    background-color: #faffc7;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5%;
+    max-height: 8em;
+}
+.mainbody{
+    padding: .5em;
+}
+
+header > .miatopname{
+    display: flex;
+    font-size: 1.5em;
+    justify-content: space-evenly;
+    list-style: none ;
+    padding: 0px;
+    margin: 0px;
+}
+header > .miatopname img{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    border: 0px;
+    max-width: 5em;
+}
+header > .mainmenu{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 3em;
+    font-size: 1.5em;
+    vertical-align: middle;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 1.8em;
+}
+header > .mainmenu a{
+    text-decoration: none;
+    color: #ffcce1;
+    padding: 2.5em;
+}
+header > .mainmenu a:hover{
+    background-color: gray;
+}
+header > .mainmenu a:active a:visited{
+    text-decoration: none;
+    color: #ffcce1;
+}
+
+.mainlogo{
+    display: flex;
+    justify-content: space-around;
+}
+.mainlogo hr{
+    display: none;
+}
+.mainlogo img {
+    max-width: 12em;
+    display: flex;
+    justify-content:space-between;
+    float: none;
+}
+#bigimage1 img{
+    display: flex;
+    max-width: 40em;
+    float: left;
+    border-radius: 10%;
+    padding: 1em;
+    vertical-align: middle;
+}
+.bigimagetext{
+    font-size: 1.2em;
+    margin-bottom: 4em;
+    line-height: 1.7em;
+}
+.bigimagetext h1{
+    text-align: center;
+    font-size: 1.5em;
+    padding: .2em;
+    
+}
+.bigimagetext h2{
+    text-align: center;
+    font-size: 1.2em;
+    padding: .5;
+}
+.bigimagetext p{
+    padding: 1em;
+    font-size: 1em;
+}
+#bigimage2 img{
+    display: flex;
+    max-width: 50%;
+    float: right;
+    border-radius: 5%;
+    padding-right: 1em;
+    margin-left: 1em;
+}
+
+
+/*for the shop css*/
+
+.shopmainbody{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: .5em;
+}
+.shopmainbody button{
+    background-color: #faffc7; 
+    border-radius: 10%;
+    border: 10px; 
+}
+.shopmainbody button:hover
+{
+    background-color: aliceblue;
+}
+.shopone img{
+    max-width: 15em;
+    border-radius: 5%;
+    max-height: 15em;
+    padding-left: 1em;
+
+}
+.shopone{
+    display: flex;   
+}
+.shopone h3{
+    display: flex;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.5em;
+    margin-top: 3em;
+    max-width: 7em;
+}
+.shopone p{
+    font-size: 1em;
+    line-height: 2em;
+    padding-left: 2em;
+    max-width: 55%;
+    padding-top: 0em;
+}
+.shopbutton{
+    display: flex;
+    justify-content: space-evenly;
+    width: 14em;
+    height: 3em;
+    font-size: 1em;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 1em;
+    margin-top: 5em;
+    overflow: hidden;
+    
+}
+.shopbutton :hover{
+    background-color: pink;
+}
+hr{
+    border: 1px solid red; 
+    border-radius: 5%;
+    margin: 1em;
+    margin-bottom: 3em;
+}
+
+/*tik toe game*/
+
+td {
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    font-size: 80px;
+    text-align: center;
+    font-family: sans;
+}
+td:nth-child(1) {
+    border-left: none;
+    }
+    td:nth-child(3) {
+    border-right: none;
+    }
+    tr:nth-child(1) > td {
+    border-top: none;
+    }
+    tr:nth-child(3) > td {
+    border-bottom: none;
+    }
+
+ #turn 
+ {
+     font-weight: bold;
+     text-transform: capitalize;
+     text-align: center;
+     font-size: 16pt;
+     padding-top: 1em;
+ }
+ #readyToShop
+ {
+    display: flex;
+    justify-content: space-between;
+ }
+.bodyabout {
+    padding: 1em;
+}
+.bodyabout h2{
+    text-align: center;
+}
+.bodyabout h3{
+    text-align: center;
+}
+.bodyabout p{
+    text-align: center;
+}
+#tableallign{
+    display: flex;
+    justify-content: space-around;
+}
+#tableallign table{
+    display: flex;
+    justify-content: space-around;
+}
+.bodyabout video{
+    display: flex;
+}
+.bodyabout a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+    justify-content: space-around;
+}
+.bodyabout h5{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*mias cart: to use in the cart and control the look of it */
+
+.buttonClear 
+{
+    display: flex;
+    width: 100%;
+    height: 3em;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1em;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    
+}
+.buttonClear button
+{
+    background-color: #faffc7; 
+    border-radius: 10%;
+    border: 10px; 
+}
+.buttonClear button:hover
+{
+    background-color: aliceblue;
+}
+#checkoutID button
+{
+    background-color: #faffc7;
+    border-radius: 100%;
+    border: none;   
+}
+#checkoutID button:hover
+{
+    background-color: aliceblue;
+}
+#clearCart button
+{
+    padding: 10px;
+    font-size: 2em;
+}
+
+#cartObject
+{
+    display: inline-block;
+    margin: 1em;
+}
+
+#cartObject h5
+{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#cartObject img
+{
+    max-width: 10em;
+}
+.cartDescript
+{
+    display: flex;
+    /*width: 20em;*/
+    align-items: center;
+    /*justify-content: center;
+    text-align: center;*/
+}
+.cartDescript p
+{
+    font-size: 1em;
+    line-height: 2em;
+    padding-left: 2em;
+    max-width: 55%;
+    padding-top: 0em;
+}
+.cartDescript h3{
+    display: flex;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.5em;
+    margin-top: 3em;
+    max-width: 7em;
+}
+.cartDescript img{
+    max-width: 15em;
+    border-radius: 5%;
+    max-height: 15em;
+    padding-left: 1em;
+
+}
+.cartDescript h4
+{
+    padding-left: 1em;
+    font-size: 1.5em;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/*
+.shopone p{
+    font-size: 1em;
+    line-height: 2em;
+    padding-left: 2em;
+    max-width: 55%;
+    padding-top: 0em;
+}
+*/
+
+#checkoutID  /* we mess with the container not the button to allow it to center within the container*/
+{
+    display: flex;
+    width: 100%;
+    height: 3em;
+    text-align: center;
+    margin-top: 1em;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+#checkoutID button
+{
+    font-size: 2em;
+    padding: 2em;
+}
+
+#checkoutID button :hover
+{
+    color: blue;
+    background-color: aqua;
+}
+
+/*******checkout page css**********/
+
+#checkoutList
+{
+    display: flex;
+    justify-content: space-around;
+    padding:3em;
+    width: 100%;
+}
+
+#checkoutList p
+{
+    padding-top: .5em;
+}
+
+form
+{
+    display: inline-block;
+    width: 100%;
+}
+
+#nameLast
+{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2em;
+}
+.holder
+{
+    display: flex;
+    padding-bottom: 3em;
+    justify-content: space-around;
+}
+.holder input
+{
+    padding: 0em;
+    margin: 3px;
+}
+.holder label
+{
+    padding:1em;
+}
+
+#submitPayment button
+{
+   background-color: #faffc7;
+   margin: 1em; 
+}
+
+#submitPayment button:hover
+{
+    background-color: aliceblue;
+}
+.checkoutButtons
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+.checkoutButtons button
+{
+    background-color: #faffc7;
+    padding: 3em;
+    margin-bottom: 2em;
+    border-radius: 30%;
+    border: none;
+}
+.checkoutButtons :hover
+{
+    background-color: aliceblue;
+}
+.textboxLong
+{
+    width: 10em;
+    height: 1em;
+    margin-left:1em;
+}
+
+#checkoutTitles
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 3em;
+}
+
+.textboxLong
+{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 10%;
+}

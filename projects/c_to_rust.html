@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="C to Rust Transpiler — Eder Martinez"
+  >
+
+  <title>C to Rust Transpiler — Eder Martinez</title>
+
+  <!-- Main website CSS -->
+  <link rel="stylesheet" href="../css/style.css">
+
+  <!-- Project page CSS -->
+  <link rel="stylesheet" href="../css/project.css">
+</head>
+
+<body>
+
+  <div class="site-noise" aria-hidden="true"></div>
+
+
+  <!-- NAVIGATION -->
+
+  <header class="nav-wrap">
+
+    <nav class="nav container">
+
+      <a
+        class="brand"
+        href="../index.html"
+        aria-label="Eder Martinez home"
+      >
+        EM<span>.</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links">
+
+        <a href="../index.html#projects">
+          Projects
+        </a>
+
+        <a href="../index.html#research">
+          Research
+        </a>
+
+        <a href="../index.html#about">
+          About
+        </a>
+
+        <a href="../index.html#contact">
+          Contact
+        </a>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+  <main>
+
+
+    <!-- PROJECT HEADER -->
+    <section class="project-hero container">
+      <a
+        class="project-back"
+        href="../index.html#projects"
+      >
+        Back to Projects
+      </a>
+
+      <p class="eyebrow">
+        Group Project · 2026
+      </p>
+
+      <h1>
+        C to Rust Transpiler
+        <br>
+        <em>Fine-tuning LLMs for Code Translation</em>
+      </h1>
+
+      <p class="project-intro">
+        A machine learning project focused on using open-source
+        Large Language Models to translate C code into Rust.
+        The project explored model selection, dataset preparation,
+        fine-tuning, and evaluation using CodeT5 and
+        Qwen2.5-Coder-7B-Instruct.
+      </p>
+
+    </section>
+        
+
+
+       <!-- SCREENSHOT SLIDESHOW -->
+
+    <section class="project-media-section container">
+
+      <div class="project-slideshow" data-project="c_to_rust">
+
+        <button
+          class="slide-button slide-prev"
+          aria-label="Previous screenshot"
+        >
+          ←
+        </button>
+
+        <div class="slide">
+          <img
+            id="project-slide-image"
+            src="../assets/projects/c_to_rust/01.jpg"
+            alt="C to Rust Transpiler project screensho"
+          >
+        </div>
+
+        <button
+          class="slide-button slide-next"
+          aria-label="Next screenshot"
+        >
+          →
+        </button>
+
+      </div>
+
+      <div class="slide-counter">
+        <span id="slide-current">01</span>
+        /
+        <span id="slide-total">06</span>
+      </div>
+
+    </section>
+
+    <!-- OVERVIEW -->
+
+    <section class="project-section container">
+
+      <div class="project-section-heading">
+
+        <p class="eyebrow">
+          01 · Overview
+        </p>
+
+        <h2>
+          Fine-tuning LLMs
+        </h2>
+
+      </div>
+
+      <div class="project-section-content">
+
+        <p>
+      The goal was to develop a model capable of translating
+      C source code into functionally equivalent Rust code.
+      We investigated open-source code models and fine-tuned
+      them for this specific translation task.
+    </p>
+    <br>
+    <p>
+      We initially experimented with CodeT5 before moving to
+      Qwen2.5-Coder-7B-Instruct. This change required us to
+      revisit our training approach and prepare a suitable
+      dataset for fine-tuning.
+    </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- MY ROLE -->
+
+    <section class="project-section section-dark">
+
+      <div class="container project-two-column">
+
+        <div class="project-section-heading">
+
+          <p class="eyebrow">
+            02 · My Role
+          </p>
+
+          <h2>
+            Working with Artificial Intelligence
+          </h2>
+
+        </div>
+
+        <div class="project-section-content">
+
+          <p>
+            I helped research potential models and worked on
+            fine-tuning them. I also contributed to the analysis
+            and writing using the information gathered throughout
+            the project. We ultimately wrote a ten-page paper
+            documenting our work and results.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- TEAM -->
+
+    <section class="project-section container">
+
+      <div class="project-section-heading">
+
+        <p class="eyebrow">
+          03 · Team
+        </p>
+
+        <h2>
+          Who worked on it.
+        </h2>
+
+      </div>
+
+      <div class="project-team">
+
+        <div class="team-member">
+
+          <h3>
+            Hank (Henry) Glenn
+          </h3>
+
+          <p>
+            Lead Tuner and Programmer
+          </p>
+
+        </div>
+
+        <div class="team-member">
+
+          <h3>
+            Eder Martinez
+          </h3>
+
+          <p>
+            Researcher, Programmer, and Testing
+          </p>
+
+          <h3>
+            Miguel Arellano
+          </h3>
+
+          <p>
+            Programming
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- TECHNOLOGY -->
+
+    <section class="project-section section-dark">
+
+      <div class="container project-two-column">
+
+        <div class="project-section-heading">
+
+          <p class="eyebrow">
+            04 · Technology
+          </p>
+
+          <h2>
+            Built with.
+          </h2>
+
+        </div>
+
+        <div class="project-section-content">
+
+          <div class="technology-list">
+
+            <span>Python</span>
+            <span>Qwen2.5-Coder-7B-Instruct</span>
+            <span>CodeT5</span>
+            <span>LoRA</span>
+            <span>PyTorch</span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- RESEARCH / REFERENCES -->
+
+    <section class="project-section section-dark">
+
+      <div class="container project-two-column">
+
+        <div class="project-section-heading">
+
+          <p class="eyebrow">
+            05 · Research
+          </p>
+
+          <h2>
+            Research & references.
+          </h2>
+
+        </div>
+
+        <div class="project-section-content">
+
+          <p>
+            The following resources were used as references
+            throughout the development of the project.
+          </p>
+
+          <ul class="project-list">
+
+            <li>
+              <a
+                href="https://aima.cs.berkeley.edu/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Artificial Intelligence: A Modern Approach —
+                Russell and Norvig
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://d2l.ai/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Dive into Deep Learning — Zhang
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- RESULTS -->
+
+      <section class="project-section container">
+
+        <div class="project-section-heading">
+
+          <p class="eyebrow">
+            06 · Results
+          </p>
+
+          <h2>
+            From experimentation to a working model.
+          </h2>
+
+        </div>
+
+        <div class="project-section-content">
+
+          <p>
+            After encountering limitations with CodeT5, we moved to
+            Qwen2.5-Coder-7B-Instruct and fine-tuned it using LoRA.
+            A significant part of the process involved preparing,
+            checking, and validating the training and validation data.
+          </p>
+
+          <p>
+            The resulting model was able to perform C-to-Rust
+            translation and provided measurable improvements that we
+            evaluated and documented in our final research paper.
+          </p>
+
+          <a
+            class="text-link"
+            href="../assets/projects/c_to_rust/Final Report.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Written Paper 
+          </a>
+
+        </div>
+
+      </section>
+
+    <!-- PROJECT LINKS -->
+
+    <!-- PROJECT LINKS -->
+
+    <section class="project-links container">
+
+      <a
+        class="button button-primary"
+        target="_blank"
+        href="https://github.com/That-Coder-Guy/CtoRustCodeConverter"
+      >
+        GitHub Repo
+      </a>
+
+      <a
+        class="button button-quiet"
+        href="../index.html#projects"
+      >
+        Return Home
+      </a>
+
+    </section>
+
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer class="footer container">
+
+    <span>
+      © 2026 Eder Martinez
+    </span>
+
+    <span>
+      Built from scratch.
+    </span>
+
+  </footer>
+
+
+  <script src="../js/main.js"></script>
+
+</body>
+
+</html>

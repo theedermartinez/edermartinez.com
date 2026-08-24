@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <meta charset="utf-8"> 
+            <title>Eder Martinez about</title>
+            <link rel="stylesheet" type="text/css" href="fancy.css">
+        </head>
+        <body onload="checkoutFinalTotal();writeTextGood();">
+            <header>
+                    <ul class="miatopname">
+                        <li><img src="./images/Miaslogonoback.png"></li>
+                    </ul>
+                    <ul class="mainmenu">
+                        <h4>Checkout</h4>
+                    </ul>
+                </header>
+            <!--this page will be used for the checkout first we must import and total and products, then we must ask for an email and a credit card info-->
+            <div id="checkoutTitles"><h3>Total Items</h3></div>
+            <div id = "checkoutList">
+                <!--this will be used to display total coffelist || total amount || taxes and fees for shipping-->
+            </div> 
+            
+            <!-- we must use a form (like google does) to get the information-->
+            <!-- here we must take a break. We use the action = php to show that our program will call on the php program called submit by using the post method,
+            we use this to campture the information provided by the client.-->
+            <form action = "submit.php" method="post"> <!-- we must create a php program -->
+            <!--we must use label/input using the for label and pointing towards the id of the input-->
+            <hr></hr>
+            <div id="nameLast"> 
+                <div>
+                    <input type="hidden" id="dataToPass" name="dataToPass" value="">   
+                    <label for = "nameCustomer">First Name</label>
+                    <input type="text" id="nameCustomer" name="nameCustomer" class="textboxLong"> 
+                </div>
+                <div>
+                    <label for = "lastCustomer">Last Name</label>
+                    <input type = "text" id="lastCustomer" name="lastCustomer" class="textboxLong">
+                </div>
+            </div> 
+            <div class="holder">       
+                <div id="emailBox">
+                    <label for = "email">Email:</label>
+                    <input type="email" id="email" name="email" class="textboxLong">
+                </div>
+            </div>
+            <div class="holder">
+                <div class="holder"> 
+                    <div>   
+                        <label for = "cardNum">Card Number</label>
+                        <input type="number" id="cardNum" name="cardNum" class="textboxLong">
+                    </div>
+                    <div>
+                        <label for = "expDate">Expiration Date</label>
+                        <input type="date" id="expDate" name="expDate" class="textboxLong">
+                    </div>
+                    <div>
+                    <label for = "CVV"> CVV</label>
+                    <input type="number" id="CVV" name="CVV" class="textboxLong">
+                    </div>
+                </div>  
+            </div>
+            <div class="checkoutButtons">
+                <button onclick="clearCart(); " type ="submit" class="checkoutButtons">Submit!</button>
+            </div>
+            </form><!--//clearCart();//onclick = "writeToTxt();"-->
+                <div class="checkoutButtons">
+                <button onclick="returnToCart();" class="checkoutButtons">Return to cart</button>
+            </div>
+            <div class="mainlogo">
+                <img src="./images/Miaslogonoback.png" alt="main logo of mia">
+            </div>
+
+            <script type="text/javascript" src="cart.js"></script>
+
+        </body>
+
+</html>
