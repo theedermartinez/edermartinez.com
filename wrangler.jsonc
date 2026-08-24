@@ -2,6 +2,8 @@
   "name": "edermartinez-com",
   "compatibility_date": "2026-08-24",
   "assets": {
-    "directory": "./"
+    "directory": "./",
+    "not_found_handling": "404-page"
+
   }
 }
