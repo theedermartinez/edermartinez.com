@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Report a bug, error, or outage — Eder Martinez"
+  >
+
+  <link rel="icon" type="image/png" href="../assets/birdpng.png">
+
+  <title>Report a Bug — Eder Martinez</title>
+
+  <!-- Main website CSS -->
+  <link rel="stylesheet" href="../css/style.css">
+
+  <!-- Project page CSS -->
+  <link rel="stylesheet" href="../css/project.css">
+
+  <link rel="stylesheet" href="../css/error_supplemental_style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="site-noise" aria-hidden="true"></div>
+
+
+  <!-- NAVIGATION -->
+  <div id="site-nav"></div>
+
+  <main>
+
+    <!-- REPORT HEADER -->
+
+    <section class="project-hero container">
+
+      <a
+        class="project-back"
+        href="../index.html"
+      >
+        ← Back Home
+      </a>
+
+      <p class="eyebrow">
+        Support · Bug Report
+      </p>
+
+      <h1>
+        Report an Error
+        <br>
+        <em>Bug, Error, or Outage</em>
+      </h1>
+
+      <p class="project-intro">
+        Something not working correctly? Let me know what happened and
+        where the problem occurred. Your report will be sent directly
+        by email for review.
+      </p>
+
+    </section>
+
+
+    <!-- REPORT FORM -->
+
+    <section class="project-section container">
+
+      <div class="project-section-heading">
+
+        <p class="eyebrow">
+          01 · Report
+        </p>
+
+        <h2>
+          What went wrong?
+        </h2>
+
+      </div>
+
+      <div class="project-section-content report-form">
+
+        <form id="bug-report-form">
+
+          <div class="report-field">
+
+            <label for="project">
+              Project or application
+            </label>
+
+            <select id="project" name="project" required>
+
+              <option value="" selected disabled>
+                Select a project
+              </option>
+
+              <option value="Digital Wellbeing Laboratory">
+                Digital Wellbeing Laboratory
+              </option>
+
+              <option value="SimpleSpanish app">
+                SimpleSpanish app
+              </option>
+
+              <option value="Other">
+                Other
+              </option>
+
+            </select>
+
+          </div>
+
+
+          <div class="report-field">
+
+            <label for="description">
+              Description
+            </label>
+
+            <textarea
+              id="description"
+              name="description"
+              placeholder="Describe the bug, error, or outage. Include what you were doing, what you expected to happen, and what happened instead."
+              required
+            ></textarea>
+
+            <p class="report-note">
+              Please provide as much detail as possible.
+            </p>
+
+          </div>
+
+
+          <div class="report-actions">
+
+            <button
+              class="button button-primary"
+              type="submit"
+            >
+              Send Email
+            </button>
+
+          </div>
+
+        </form>
+
+      </div>
+
+    </section>
+
+
+    <!-- ADDITIONAL INFORMATION -->
+
+    <section class="project-section section-dark">
+
+      <div class="container project-two-column">
+
+        <div class="project-section-heading">
+
+          <p class="eyebrow">
+            02 · What happens next
+          </p>
+
+          <h2>
+            Sent directly by email.
+          </h2>
+
+        </div>
+
+        <div class="project-section-content">
+
+          <p>
+            Selecting “Send Email” will open your default email application
+            with the report information already filled in. The subject will
+            be marked as an urgent bug report so it can be reviewed quickly.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- PROJECT LINKS -->
+
+    <section class="project-links container">
+
+      <a
+        class="button button-quiet"
+        href="../index.html"
+      >
+        Return Home
+      </a>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer class="footer container">
+
+    <span>
+      © 2026 Eder Martinez
+    </span>
+
+    <span>
+      Built from scratch.
+    </span>
+
+  </footer>
+
+
+  <script src="../js/main.js"></script>
+
+  <script src="../js/send_error_email.js"></script>
+
+</body>
+
+</html>
